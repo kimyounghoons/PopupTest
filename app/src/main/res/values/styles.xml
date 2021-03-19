@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Main" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorControlHighlight">#22000000</item>
+        <item name="android:windowBackground">#f6f6f6</item>
+    </style>
+
+    <style name="SSMAppThemeOverlay" parent="@style/Theme.AppCompat.Light">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="actionBarSize">48dp</item>
+        <item name="android:actionBarSize">48dp</item>
+        <item name="colorControlHighlight">#22000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">#f6f6f6</item>
+    </style>
+
+</resources>
